@@ -15,20 +15,30 @@
 
 
 
-.bg-lightblue{background-color: #c3f9f5;
- padding:100px;
- margin: 5px;}
+.bg-lightblue{background-color: #00ffee; padding: 20px; margin: 0px; border: 3px solid #ffffff;}
 
-.bg-limegreen{background-color: #00ff6e;
- padding:100px;
- margin: 5px;}
+.bg-limegreen{background-color: #00ff6e; padding: 20px; margin: 0px; border: 3px solid #ffffff;}
+
+.bg-green{background-color: #237145; padding: 20px; margin: 0px; border: 3px solid #ffffff;}
+
+.bg-black{background-color: #000000; padding: 20px; margin: 0px; border: 3px solid #ffffff;}
+
+.bg-hotpink{background-color: #ff00c8; padding: 20px; margin: 0px; border: 3px solid #ffffff;}
+
+.bg-grey{background-color: #a1a1a1; padding: 20px; margin: 0px; border: 3px solid #ffffff;}
+
+
+
+
+
+.limegreen{color: #00ff6e}
 
 .grey{color:#CACACA}
 
 nav{
   background-color:#F596FA ;
-  border: 1px solid #dedede
-  color:#ffffff
+  border: 5px solid #000000;
+  color:#ffffff;
   display: block;
 overflow: hidden;
 width:100%
@@ -56,5 +66,11 @@ nav ul li:hover a{
   color: red
 }
 
+footer{
+  background-color:#F596FA ;
+  color: #ffffff;
+  text-align: center;
+  padding: 3px;
+}
 
 
