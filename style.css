@@ -1,44 +1,43 @@
 /*This is main stylesheet*/
 /*colour scheme*/ 
-/*light blue #BDE4FF*/
-/*blue #8698D9 */ 
-/*cyan #72F2EB */ 
-/*purple #B484D9 */ 
-/* magenta #F596FA */ 
-/*white #FDF6EE */
+ /*.bg-lightblue #00ffee   rgb(0,255,238) */ 
+/*purple #F596FA  rgb(245,150,250) */ 
+/* magenta #ff00c8 rgb(255,0,200) */ 
+/*white #FFFFF     rgb(255,255,255)*/
 
 
 
-.black{color: #000000;}
-
-.white{color:#ffffff ;}
+.black{color: rgb(0,0,0);}
 
 
+.white{color:rgb(255,255,255) ;}
 
-.bg-lightblue{background-color: #00ffee; padding: 20px; margin: 0px; border: 3px solid #ffffff;}
 
-.bg-limegreen{background-color: #00ff6e; padding: 20px; margin: 0px; border: 3px solid #ffffff;}
+
+.bg-lightblue{background-color: rgb(0,255,238); padding: 20px; margin: 0px; border: 3px solid #ffffff;}
+
+.bg-limegreen{background-color: rgb(0,255,110); padding: 20px; margin: 0px; border: 3px solid #ffffff;}
 
 .bg-green{background-color: #237145; padding: 20px; margin: 0px; border: 3px solid #ffffff;}
 
-.bg-black{background-color: #000000; padding: 20px; margin: 0px; border: 3px solid #ffffff;}
+.bg-black{background-color: rgb(0,0,0); padding: 20px; margin: 0px; border: 3px solid #ffffff;}
 
-.bg-hotpink{background-color: #ff00c8; padding: 20px; margin: 0px; border: 3px solid #ffffff;}
+.bg-hotpink{background-color: rgb(255,0,200); padding: 20px; margin: 0px; border: 3px solid #ffffff;}
 
-.bg-grey{background-color: #a1a1a1; padding: 20px; margin: 0px; border: 3px solid #ffffff;}
-
-
+.bg-grey{background-color: rgb(161,161,161); padding: 20px; margin: 0px; border: 3px solid #ffffff;}
 
 
 
-.limegreen{color: #00ff6e}
 
-.grey{color:#CACACA}
+
+.limegreen{color: rgb(0,255,110)}
+
+.grey{color:rgb(161,161,161)}
 
 nav{
-  background-color:#F596FA ;
+  background-color:rgb(245,150,250) ;
   border: 5px solid #000000;
-  color:#ffffff;
+  color:rgb(255,255,255);
   display: block;
 overflow: hidden;
 width:100%
@@ -63,14 +62,32 @@ nav ul li :hover{
 }
 
 nav ul li:hover a{
-  color: red
+  color: rgb(255,0,0)
 }
 
 footer{
-  background-color:#F596FA ;
-  color: #ffffff;
+  background-color:	
+rgb(245,150,250) ;
+  color: rgb(255,255,255,1);
   text-align: center;
   padding: 3px;
 }
 
+/**** This is style for tablet****/
 
+@media screen and (max-width: 992px){
+
+.bg-lightblue{background-color: rgb(0,255,238,0.5); padding: 20px; margin: 0px; border: 1px solid #ffffff;}
+  
+  
+
+
+
+
+
+
+/**** This is style for mobile****/
+
+  @media screen and (max-width: 600px){
+
+  .bg-lightblue{background-color: rgb(0,255,238,0.1); padding: 20px; margin: 0px; border: 1px solid #ffffff;}
