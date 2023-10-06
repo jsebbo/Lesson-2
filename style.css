@@ -27,8 +27,8 @@
 .bg-grey{background-color: rgb(161,161,161); padding: 20px; margin: 0px; border: 3px solid #ffffff;}
 
 
-
-
+.gradient: {rgb(34,195,133);}
+{ackground: linear-gradient(0deg, rgba(34,195,133,1) 0%, rgba(0,235,255,1) 100%);}
 
 .limegreen{color: rgb(0,255,110)}
 
@@ -37,7 +37,7 @@
 nav{
   background-color:rgb(245,150,250) ;
   border: 5px solid #000000;
-  color:rgb(255,255,255);
+  color:rgb(255, 255, 255);
   display: block;
 overflow: hidden;
 width:100%
@@ -78,16 +78,88 @@ rgb(245,150,250) ;
 @media screen and (max-width: 992px){
 
 .bg-lightblue{background-color: rgb(0,255,238,0.5); padding: 20px; margin: 0px; border: 1px solid #ffffff;}
+
+}
+  /*tells the browser to account for any border and padding in */
+/*the values you specify for an element's width and height*/
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 20px;
+}
+
+/* Clear floats after the columns If an element is taller than the */
+  
+/*element containing it, and it is floated, it will overflow outside of its container.*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
   
   
-
-
-
-
-
 
 /**** This is style for mobile****/
 
   @media screen and (max-width: 600px){
 
   .bg-lightblue{background-color: rgb(0,255,238,0.1); padding: 20px; margin: 0px; border: 1px solid #ffffff;}
+  }
+/*tells the browser to account for any border and padding in */
+/*the values you specify for an element's width and height*/
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 20px;
+}
+
+/* Clear floats after the columns If an element is taller than the */
+/*element containing it, and it is floated, it will overflow outside of its container.*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+    /* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+    min-height: 300px;
+  }
+}
+
+    /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+@font-face{
+font-family: myFirstFont;
+src: <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+
+  fa-solid
+
+
+
+
+    
+
+
+
+   
