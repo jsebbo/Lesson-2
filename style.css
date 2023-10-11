@@ -34,6 +34,33 @@
 
 .grey{color:rgb(161,161,161)}
 
+
+title{
+  
+font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Kanit', sans-serif;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+li{
+  font-family: 'Montserrat', sans-serif;
+}
+
+td{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
 nav{
   background-color:rgb(245,150,250) ;
   border: 5px solid #000000;
@@ -147,13 +174,7 @@ rgb(245,150,250) ;
 }
 
 
-@font-face{
-font-family: myFirstFont;
-src: <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
 
-  fa-solid
 
 
 
